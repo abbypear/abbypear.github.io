@@ -6,23 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Visualization Homework</title>
-    <link rel="stylesheet" href="weather_data.css">
+    <link rel="stylesheet" href="look.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body style="background-color: lightskyblue">
-    <!-- Latitude Navbar -->
+<body style="background-color:lightgrey">
+    <!-- Create Latitude Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" class="whitefont"
-                href="#https: weather_homework.html">Latitude</a>
+                href="https: weather_hmwrk.html#">Latitude</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- Dropdown -->
+            <!-- Create dropdown Plots Navbar -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
@@ -31,8 +31,7 @@
                             Plots</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item"
-                                href="https: latitude-and-temperature.html">Max
-                                Temperature</a>
+                                href="https: latitude-and-temperature.html">Max Temperature</a>
                             <a class="dropdown-item"
                                 href="https: latitude-and-humidity.html">Humidity</a>
                             <a class="dropdown-item"
@@ -42,7 +41,7 @@
                         </div>
                     </li>
 
-                    <!-- Comparison Navbar -->
+                    <!-- Create Comparison Navbar -->
                     <li class="nav-item">
                         <a class="nav-link"
                             href="https: compare.html">Comparison</a>
@@ -61,37 +60,30 @@
     <div class="container-fluid">
         <div class="row">
             <br>
-            <!-- Create Summary Layout -->
+
+            <!-- Create Max Tenp. Layout -->
             <div class="row">
                 <div class="col-md-5 offset-md-1" style="background-color: white">
                     <br>
-                    <h1 class="d-flex justify-content-start tealfont">Summary: Latitude vs. X</h1>
+                    <h1 class="d-flex justify-content-start tealfont">Max Temperature</h1>
                     <br>
                     <hr>
                     <div class="row">
-                        <div class="col-md-4">
-                            <img src="images/Fig1.png" class="summaryimage" class="rounded float-left"
+                        <div class="col-md-10 offset-md-1">
+                            <img src="images/Fig1.png" class="individualimage"
                                 alt="Latitude and Temperature" />
-                        </div>
-                        <div class="col-md-7 offset-md-1">
-                            <br>
-                            <p class="h5 greyfont">Using an OpenWeatherMap API, we can assemble data to gauge how weather changes as you get closer to the equator</p>
-                            <br>
-                            <p class="h5 greyfont"> Using Matplotlib, we can visualize the different dimensions of comparing latitude to weather</p>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-10 offset-md-1">
                             <br>
-                            <p class="h5 greyfont"> This site is meant to provide the source data, trends, and 
-                                visualizations created from the analysis.
-                            </p>
+                            <p class="h5 greyfont"> Between 20 and 40 degrees latitude north of the equatore, the highest temperatures occur.</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Visualization Sidebar -->
+                <!-- Create Visualization Sidebar -->
                 <div class="col-md-4 offset-md-1" style="background-color: white;">
                     <br>
                     <h1 class="d-flex justify-content-start tealfont">Visualizations</h1>
@@ -120,7 +112,7 @@
 
                         <div class="col-md-3 offset-md-3">
                             <a href="latitude-and-wind.html">
-                                <img src="images/Fig4.png" class="vis" alt="Latitude and Wind" /></a>
+                                <img src="images/Fig4.png" class="vis" alt="Latitude vs. Wind" /></a>
                         </div>
                     </div>
                     <br>
